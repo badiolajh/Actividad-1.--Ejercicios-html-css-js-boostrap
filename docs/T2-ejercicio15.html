@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="JS/ejercicio15.js"></script>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <h1>Ejercicio 15 - Datos de estudiantes</h1>
+            <p>Ingresa los datos de los estudiantes</p>
+
+            <!-- Columnas para ingresar datos -->
+            <div class="columna">
+                <label>Nombre</label>
+                <input
+                    type="text"
+                    placeholder="Ej. Jonathan"
+                    id="name"
+                    required
+                />
+            </div>
+        </div>
+        <div class="columna">
+            <label>Calificaciòn</label>
+            <input type="number" placeholder="Ej. 8.3" id="cal" requiered />
+        </div>
+
+        <!-- Boton para agregar estudiantes -->
+        <div class="Boton">
+            <button onclick="PushEst()">Agregar Estudiante</button>
+        </div>
+
+        <br />
+
+        <!-- Columnas para resultados -->
+        <div class="columna">
+            <label>Calificacion promedio: </label>
+            <input type="text" id="promedio" readonly />
+        </div>
+        <div class="columna">
+            <label>Estudiante con la calificaciòn màs alta: </label>
+            <input type="number" id="mayor" readonly />
+        </div>
+        <div class="columna">
+            <label>Estudiante con la calificaciòn màs baja: </label>
+            <input type="number" id="menor" readonly />
+        </div>
+
+        <!-- Columnas que calcula resultados -->
+        <div class="Boton">
+            <button onclick="Calc()">Calcular</button>
+        </div>
+
+        <br />
+
+        <div class="Lista">
+            <p id="name"></p>
+            <p id="cal"></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="JS/ejercicio12.js"></script>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <h1>CONVERSOR DE MSN A USD</h1>
+
+            <div class="columna">
+                <label>MXN</label>
+                <input
+                    type="number"
+                    placeholder="Obligatorio"
+                    id="mxn"
+                    required
+                    min="0"
+                    required
+                />
+            </div>
+
+            <div class="columna">
+                <label>USD</label>
+                <input type="number" id="usd" readonly />
+            </div>
+
+            <div class="Boton">
+                <button onclick="MXaUSD()">Calcular</button>
+            </div>
+        </div>
+    </body>
+</html>

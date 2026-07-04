@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="JS/ejercicio13.js"></script>
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <h1>PUEDES VOTAR?</h1>
+            <p>Ingresa tu edad para determinar si puedes votar</p>
+
+            <div class="columna">
+                <label>Edad</label>
+                <input
+                    type="number"
+                    placeholder="Ingresa tu edad (Obligatorio)"
+                    id="edad"
+                    minlength="1"
+                    required
+                />
+            </div>
+
+            <div>
+                <label>Puedes votar?</label>
+            </div>
+            <div class="columna">
+                <input type="text" id="siono" readonly />
+            </div>
+
+            <div class="Boton">
+                <button onclick="SioNo()">Verificar</button>
+            </div>
+        </div>
+    </body>
+</html>
