@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <h1>Gestor de tareas</h1>
+
+            <!-- Columna para agregar tarea-->
+            <div class="columna">
+                <input
+                    type="text"
+                    id="tarea"
+                    placeholder="Escribe una tarea.... "
+                />
+                <button id="btnAgregar">Agregar</button>
+            </div>
+
+            <!-- Contador Visualizador de tareas -->
+            <div class="columna">
+                <ul id="listaTareas"></ul>
+            </div>
+
+            <!-- Contador de contador de tareas -->
+            <div class="columna">
+                <label> Total de tareas: </label>
+                <input type="text" id="contador" readonly />
+            </div>
+        </div>
+
+        <script src="JS/ejercicio17.js"></script>
+    </body>
+</html>

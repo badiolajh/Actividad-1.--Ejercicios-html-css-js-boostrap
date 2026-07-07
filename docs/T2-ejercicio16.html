@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="JS/ejercicio16.js"></script>
+        <link rel="stylesheet" href="CSS/ejercicio16.css" />
+    </head>
+
+    <body>
+        <div class="contenedor">
+            <h1>Calculadora</h1>
+
+            <!-- Columna de grados fahrenheit -->
+            <div class="columna">
+                <label>Suma: </label>
+                <input type="number" id="sum" />
+                <input type="number" id="sum2" />
+                <input type="number" id="resSum" readonly />
+            </div>
+
+            <!-- Columna de grados celcios -->
+            <div class="columna">
+                <label>Resta: </label>
+                <input type="number" id="rest" />
+                <input type="number" id="rest2" />
+                <input type="number" id="resRest" readonly />
+            </div>
+            <div class="columna">
+                <label>Multiplicacion: </label>
+                <input type="number" id="mul" />
+                <input type="number" id="mul2" />
+                <input type="number" id="resMul" readonly />
+            </div>
+
+            <!-- Columna de grados celcios -->
+            <div class="columna">
+                <label>Divicion: </label>
+                <input type="number" id="div" />
+                <input type="number" id="div2" />
+                <input type="number" id="resDiv" readonly />
+            </div>
+
+            <div class="Boton">
+                <button onclick="Calc()">Calcular</button>
+            </div>
+        </div>
+    </body>
+</html>
